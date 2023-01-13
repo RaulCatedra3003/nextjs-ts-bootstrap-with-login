@@ -1,0 +1,15 @@
+.input {
+  width: 80%;
+  min-height: 44px;
+  border-radius: 5px;
+  background-color: var(--background-color);
+  border: 1px solid var(--secondary-color);
+}
+
+.inputError {
+  width: 80%;
+  height: 20px;
+  padding: 5px 0 5px 0;
+  font-size: .8rem;
+  color: var(--error-color);
+}
