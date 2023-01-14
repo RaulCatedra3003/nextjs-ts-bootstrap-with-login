@@ -219,6 +219,10 @@ code {
   margin: 10px 0 5px 0;
 }
 
+.user-container__link:hover {
+  cursor: pointer;
+}
+
 .nav__link {
   width: 90%;
   height: 20px;
@@ -475,15 +479,12 @@ code {
   background-color: var(--primary-color);
   border-radius: 50%;
   top: 1px;
-  height: 5px;
-  width: 5px;
   align-items: center;
   justify-content: center;
 }
 
-.icon_edit{
-  height: 23px;
-  width: 13px;
+.icon_edit {
+  font-size: 1.2rem;
   text-align: center;
   position: relative;
   justify-content: center;

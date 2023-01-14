@@ -101,7 +101,13 @@ export const UserContextProvider = ({ children }: UserContextProviderProps) => {
   }
 
   function clearAuth () {
-    setState(initialState)
+    setState({
+      logedIn: false,
+      user: {
+        image: 'https://www.softzone.es/app/uploads/2018/04/guest.png'
+      },
+      token: undefined
+    })
     localStorage.setItem('token', '')
   }
 
